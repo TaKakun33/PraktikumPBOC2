@@ -14,8 +14,7 @@ public class Titik{
     // Konstruktor untuk membuat Titik (0,0)(pakai this)
     // this di sini gk bisa jalan jika gk ada this yg satunya
     Titik(){
-        this(0, 0, 0);
-        counterTitik++;
+        this(0, 0);
     }
 
     // Mengembalikan nilai absis
@@ -52,7 +51,7 @@ public class Titik{
     // buat konstruktor titik baru dimana ada parameter input yaitu X dan Y
     // untuk pengunanan this() bergantung pada ini karena ini konstruktor yg utama
     // abaikan Z (cmn coba aja)
-    Titik(double X, double  Y, double Z){
+    Titik(double X, double  Y){
         absis = X;
         ordinat = Y;
         counterTitik++;
@@ -80,13 +79,13 @@ public class Titik{
     }
 
     // cari jarak titik dengan pusat (0,0)
-    float getJarakPusat(){
-        return (float) Math.sqrt(Math.pow(this.absis,2) + (float)Math.pow(this.ordinat, 2));
+    double getJarakPusat(){
+        return (double) Math.sqrt(Math.pow(this.absis,2) + (double)Math.pow(this.ordinat, 2));
     }
 
     // cari jarak 2 titik
-    float getJarak(Titik T){
-        return (float) Math.sqrt(Math.pow(this.absis - T.getAbsis(),2) + (float)Math.pow(this.ordinat - T.getOrdinat(), 2));
+    double getJarak(Titik T){
+        return (double) Math.sqrt(Math.pow(this.absis - T.getAbsis(),2) + (double)Math.pow(this.ordinat - T.getOrdinat(), 2));
     }
 
     // refleksi titik terhadap X
@@ -101,12 +100,12 @@ public class Titik{
 
     // buat titik jika X di refleksikan
     Titik getRefleksiX(){
-        return new Titik(-absis, ordinat,0);
+        return new Titik(-absis, ordinat);
     }
 
     // buat titik jika Y di refleksikan
     Titik getRefleksiY(){
-        return new Titik(absis, -ordinat,0);
+        return new Titik(absis, -ordinat);
     }
 
 }

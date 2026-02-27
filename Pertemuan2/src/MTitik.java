@@ -26,7 +26,7 @@ public class MTitik{
         // overloading construktor
         // di mana sebuah class memiliki lebih dari satu constructor dengan nama yang sama, tetapi memiliki daftar parameter yang berbeda.
         System.out.println("\noverloading construktor");
-        Titik T3 = new Titik(9,5,8);
+        Titik T3 = new Titik(9,5);
         T3.printTitik();
 
         // Static artibut & method
@@ -60,10 +60,11 @@ public class MTitik{
         System.err.println("refkesi Y titik T1: ");
         T2.printTitik();
 
-        System.out.println("/nget Refleks`i");
+        System.out.println("get Refleksi X T3 -> T4");
         Titik T4 = T3.getRefleksiX();
         T4.printTitik();
 
+        System.out.println("get Refleksi X T3 -> T5");
         Titik T5 = T3.getRefleksiY();
         T5.printTitik(); 
         
