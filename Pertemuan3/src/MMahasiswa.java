@@ -1,5 +1,5 @@
 public class MMahasiswa {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
 
         /* Mengecek class Dosen */
         Dosen A = new Dosen();
