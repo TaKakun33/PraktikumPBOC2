@@ -1,7 +1,7 @@
 /* File       : Kendaraan.java
  * Deskripsi  : Berisi artibut dan method dalam class Kendaraan
  * NIM & Nama : Akmal KAfi Anan - 24060124120042
- * Tanggal    : 5 Maret 2026 
+ * Tanggal    : 5 Maret 2026
  */
 
 public class Kendaraan {
