@@ -2,7 +2,7 @@
  * Deskripsi  : Berisi artibut dan method dalam class Garis
  * NIM & Nama : Akmal KAfi Anan - 24060124120042
  * Tanggal    : 26 Februari 2026 
- */
+ */ 
 
 public class MGaris{
     public static void main(String[] args) {

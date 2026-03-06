@@ -1,4 +1,4 @@
-/* File       : MTitik.java
+/* File       : MTitik.java 
  * Deskripsi  : Berisi artibut dan method dalam class titik
  * NIM & Nama : Akmal KAfi Anan - 24060124120042
  * Tanggal    : 19 Februari 2026 

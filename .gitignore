@@ -1,2 +1,2 @@
-# membuat agar file .class hilang
+# membuat agar semua file .class hilang di dalam git
 *.class

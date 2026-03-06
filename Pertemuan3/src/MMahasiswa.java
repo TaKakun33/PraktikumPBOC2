@@ -36,7 +36,7 @@ public class MMahasiswa {
         Verry.addMatKul(Jarkom);
         Verry.setDosenWali(B);
         Verry.setKendaraan(totoya);
-
+        
         System.out.println("\nJumlah SKS Verry : " + Verry.getJumlahSKS());
         System.out.println("Jumlahj MatKul yang diambil Verry : " + Verry.getJumlahMatKul());
 
@@ -45,6 +45,6 @@ public class MMahasiswa {
 
         System.out.println("\nHasil dari printDetailMhs ke Verry\n");
         Verry.printDetailMhs();
-        
+
     }
 }
