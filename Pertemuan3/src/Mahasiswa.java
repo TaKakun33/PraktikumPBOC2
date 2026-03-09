@@ -127,10 +127,10 @@ public class Mahasiswa {
         }
 
         System.out.println("\n\nData dosen wali : ");
-        this.dosenWali.printDosen();
+        this.dosenWali.printDosen();      // procedure untuk mengprint data dosen (SC nya ada di Dosen.java)
     
         System.out.println("\nData Kendaraaan Mahasiswa : ");
-        this.kendaraan.printKendaraan();
+        this.kendaraan.printKendaraan();  // procedure untuk mengprint data kendaraan (SC nya ada di Kendaraan.java)
     }
 
 }

@@ -1,3 +1,9 @@
+/* File       : MMahasiswa.java
+ * Deskripsi  : Berisi artibut dan method dalam class Mahasiswa
+ * NIM & Nama : Akmal KAfi Anan - 24060124120042
+ * Tanggal    : 5 Maret 2026  
+ */
+
 public class MMahasiswa {
     public static void main(String[] args) { 
 
