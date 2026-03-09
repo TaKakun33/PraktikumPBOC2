@@ -85,7 +85,9 @@ public class Mahasiswa {
     /* Method lainnya */
     // Menambahkan sebuah mata kuliah ke atribut listMatKul.
     public void addMatKul(MataKuliah newMatKul){
-        lisMatKul.add(newMatKul);
+        if (this.lisMatKul.size() <= 50){
+            lisMatKul.add(newMatKul);
+        }
     }
 
     // Mendapatkan jumlah SKS mata kuliah yang diambil mahasiswa.
