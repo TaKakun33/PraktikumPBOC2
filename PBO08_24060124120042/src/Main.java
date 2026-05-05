@@ -1,7 +1,7 @@
 /* File        : Main.java
- * Deskripsi   : POLIMORFISME AD HOC INCLUSION (Main Program)
+ * Deskripsi   : demonstrasi Kelas Generik, Metode Generik, dan Larik Generik (Main Program)
  * NIM & Nama  : Akmal Kafi Anan - 24060124120042
- * Tanggal     : 26 April 2026
+ * Tanggal     : 5 mei 2026
  */
 
 public class Main {

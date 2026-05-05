@@ -1,7 +1,7 @@
 /* File        : Anjing.java
  * Deskripsi   : POLIMORFISME AD HOC INCLUSION (Class Anjing sebagai Child)
  * NIM & Nama  : Akmal Kafi Anan - 24060124120042
- * Tanggal     : 26 April 2026
+ * Tanggal     : 5 mei 2026
  */
 
 public class Anjing extends Anabul{

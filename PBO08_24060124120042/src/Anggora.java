@@ -1,3 +1,9 @@
+/* File        : Anggora.java
+ * Deskripsi   : POLIMORFISME AD HOC INCLUSION (Class Anabul sebagai Parent)
+ * NIM & Nama  : Akmal Kafi Anan - 24060124120042
+ * Tanggal     : 5 mei 2026
+ */
+
 public class Anggora extends Kucing{
 
     /**** Method ****/

@@ -1,7 +1,7 @@
 /* File        : Data.java
  * Deskripsi   : Kelas generik larik statik berisi 100 elemen generik
  * NIM & Nama  : Akmal Kafi Anan - 24060124120042
- * Tanggal     : 26 April 2026
+ * Tanggal     : 5 mei 2026
  */
 
 import java.util.Arrays;

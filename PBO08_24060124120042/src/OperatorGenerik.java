@@ -1,3 +1,10 @@
+/* File        : OperatorGenerik.java
+ * Deskripsi   : Berisi metode generik Tukar dan fungsi generik Bobot2
+ * NIM & Nama  : Akmal Kafi Anan - 24060124120042
+ * Tanggal     : 5 mei 2026
+ */
+
+
 public class OperatorGenerik {
     public static <T> void Tukar(Datum<T> a, Datum<T> b){
         T temp = a.getIsi();
