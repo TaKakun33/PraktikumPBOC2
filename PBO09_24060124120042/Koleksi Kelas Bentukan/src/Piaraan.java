@@ -19,7 +19,7 @@ public class Piaraan {
         nbelm = 0;
     }
 
-    // i. Getter nbelm
+    // Getter nbelm
     public int getNbelm() {
         return nbelm;
     }
@@ -28,37 +28,37 @@ public class Piaraan {
         this.nbelm = nbelm;
     }
 
-    // ii. Menambah anabul ke akhir antrean
+    //  Menambah anabul ke akhir antrean
     public void enqueueAnabul(Anabul anabul) {
         Lanabul.add(anabul);
         nbelm++;
     }
 
-    // iii. Mengecek apakah anabul ada dalam antrean
+    // Mengecek apakah anabul ada dalam antrean
     public boolean isMember(Anabul anabul) {
         return Lanabul.contains(anabul);
     }
 
-    // iv. Mengambil data anabul pertama tanpa mengeluarkan dari antrean
+    // Mengambil data anabul pertama tanpa mengeluarkan dari antrean
     public Anabul getAnabul() {
         return Lanabul.peekFirst();
     }
 
-    // v. Mengambil anabul pertama sekaligus mengeluarkannya dari antrean
+    // Mengambil anabul pertama sekaligus mengeluarkannya dari antrean
     public Anabul dequeueAnabul() {
         Anabul A = Lanabul.pollFirst();
         if (A != null) nbelm--;
         return A;
     }
 
-    // c. Menampilkan nama panggilan semua anabul dalam antrean
+    // Menampilkan nama panggilan semua anabul dalam antrean
     public void showAnabul() {
         for (Anabul i : Lanabul) {
             System.out.println(i.getPanggilan());
         }
     }
 
-    // d. Menghitung banyak keluarga Kucing dalam antrean
+    // Menghitung banyak keluarga Kucing dalam antrean
     public int countKucing() {
         int count = 0;
         for (Anabul i : Lanabul) {
@@ -69,7 +69,7 @@ public class Piaraan {
         return count;
     }
 
-    // e. Menghitung total bobot keluarga Kucing dalam antrean
+    // Menghitung total bobot keluarga Kucing dalam antrean
     public double bobotKucing() {
         double totalBobot = 0;
         for (Anabul i : Lanabul) {
@@ -80,7 +80,7 @@ public class Piaraan {
         return totalBobot;
     }
 
-    // f. Menampilkan nama panggilan dan jenis objek setiap anabul dalam antrean
+    // Menampilkan nama panggilan dan jenis objek setiap anabul dalam antrean
     public void showJenisAnabul() {
         for (Anabul i : Lanabul) {
             System.out.println(i.getPanggilan() + " -> " + i.getClass().getName());
