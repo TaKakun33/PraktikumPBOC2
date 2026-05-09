@@ -1,35 +1,48 @@
 /* File        : Anabul.java
  * Deskripsi   : POLIMORFISME AD HOC INCLUSION (Class Anabul sebagai Parent)
  * NIM & Nama  : Akmal Kafi Anan - 24060124120042
- * Tanggal     : 5 mei 2026
+ * Tanggal     : 9 Mei 2026
  */
 
 public class Anabul {
-    /**** Artibut ****/
+
+    /**** Atribut ****/
     private String nama;
+    private String panggilan;   // a. atribut panggilan
 
     /**** Method ****/
-    // Konstruktor untuk memberikan nama pada Anabul
+    // Konstruktor
     public Anabul(String nama) {
         this.nama = nama;
+        this.panggilan = nama;  // default panggilan = nama
     }
 
-    // Getter untuk mengakses nama
+    // Getter nama
     public String getNama() {
         return this.nama;
     }
 
-    // Setter ntuk mengakses nama
+    // Setter nama
     public void setNama(String nama) {
         this.nama = nama;
     }
 
-    // Method Gerak pada anabul
+    // Getter panggilan
+    public String getPanggilan() {
+        return this.panggilan;
+    }
+
+    // Setter panggilan
+    public void setPanggilan(String panggilan) {
+        this.panggilan = panggilan;
+    }
+
+    // Method Gerak pada Anabul
     public void Gerak() {
         System.out.println(this.nama + " bergerak...");
     }
 
-    // Method Bersuara pada anabul
+    // Method Bersuara pada Anabul
     public void Bersuara() {
         System.out.println(this.nama + " bersuara...");
     }
