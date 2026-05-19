@@ -1,2 +1,4 @@
 # membuat agar semua file .class hilang di dalam git
 *.class
+/Pertemuan10/nbproject/private/
+/Pertemuan10/build/
