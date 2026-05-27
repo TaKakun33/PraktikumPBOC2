@@ -17,7 +17,7 @@ Terdapat 3 penggunaan koleksi yaiti List, Set dan Map
 Tampilan Data Awal
 <img width="473" height="557" alt="image" src="https://github.com/user-attachments/assets/52fa7b63-5b57-4689-bd50-8db11cb76127" />
 
-Kemudian semuanya di simpan/Save ke List, Set dan Map
+Kemudian semuanya di simpan/Save ke List, Set dan Map <br>
 <img width="473" height="557" alt="image" src="https://github.com/user-attachments/assets/144d04ec-c747-43e6-a752-3b5d13dbabc6" />
 
 Kemudian Clear All dan Insert Data dari List, Set dan Map
